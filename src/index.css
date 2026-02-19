@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.calendly-inline-widget {
+  min-width: 320px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 650px !important;
+  overflow: hidden !important;
+}
+
+.calendly-inline-widget iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+}
